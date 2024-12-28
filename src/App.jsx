@@ -20,7 +20,7 @@ const App = () => {
 
   return (
     <div className='flex flex-col items-center justify-center h-screen bg-slate-300'>
-      <h1 className='text-2xl'>Advice : <span className='font-bold'>{advice}</span></h1>
+      <h1 className='text-2xl'><span className='font-bold'>{advice}</span></h1>
       <button className='m-14 p-4 active:scale-[.98] bg-black text-white translate-x-0' onClick={getAdvice}>Get Advice</button>
       {/* <Message count={count} /> */}
     </div>
